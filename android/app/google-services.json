@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "303073384715",
+    "project_id": "honda-inventory-ae26a",
+    "storage_bucket": "honda-inventory-ae26a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303073384715:android:fd5eb60bad4af634606a0e",
+        "android_client_info": {
+          "package_name": "com.example.hondainventory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303073384715-i0f27ttgdjeqpllg13q8medd3va9h4p3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFFAyaskUawDo3-ju-HazSzHyDOC4nWbA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303073384715-i0f27ttgdjeqpllg13q8medd3va9h4p3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

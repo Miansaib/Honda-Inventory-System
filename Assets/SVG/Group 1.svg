@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="28.98" viewBox="0 0 42 28.98">
+  <g id="Group_1" data-name="Group 1" transform="translate(-195.749 -265)">
+    <g id="pencil" transform="translate(198.249 265)">
+      <path id="Path_3" data-name="Path 3" d="M19.051,2.728a1.632,1.632,0,0,1,2.308,0l3.265,3.265a1.632,1.632,0,0,1,0,2.308L9.932,22.992a1.632,1.632,0,0,1-.637.395L4.4,25.019a1.632,1.632,0,0,1-2.067-2.065l1.632-4.9a1.632,1.632,0,0,1,.395-.638L19.049,2.728Zm1.154,1.154L23.47,7.147,8.779,21.838l-4.9,1.632,1.632-4.9Z" transform="translate(-2.247 -2.25)" fill="#fff" fill-rule="evenodd"/>
+      <path id="Path_4" data-name="Path 4" d="M21.68,12.315,17.6,8.234l1.156-1.156,4.081,4.081-1.154,1.156ZM6.75,18.267v.816a.816.816,0,0,0,.816.816h.816v.816a.816.816,0,0,0,.816.816h.816v.816a.816.816,0,0,0,.816.816h.816V20.715a.816.816,0,0,0-.816-.816h-.816v-.816a.816.816,0,0,0-.816-.816Z" transform="translate(-3.483 -3.576)" fill="#fff" fill-rule="evenodd"/>
+    </g>
+    <line id="Line_1" data-name="Line 1" x2="37" transform="translate(198.249 291.48)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="5"/>
+  </g>
+</svg>
