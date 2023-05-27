@@ -29,6 +29,7 @@ class _AddProductScreenState extends State<AddProductScreen> {
         TextEditingController();
     TextEditingController productQuantityController = TextEditingController();
     TextEditingController wholesalePriceController = TextEditingController();
+    TextEditingController serialNumberController = TextEditingController();
     return Scaffold(
       body: Stack(
         children: [
@@ -42,6 +43,7 @@ class _AddProductScreenState extends State<AddProductScreen> {
           Align(
             alignment: Alignment.center,
             child: SingleChildScrollView(
+              keyboardDismissBehavior: ScrollViewKeyboardDismissBehavior.onDrag,
               child: Container(
                 height: height * 0.8,
                 child: Column(
@@ -67,6 +69,13 @@ class _AddProductScreenState extends State<AddProductScreen> {
                       obsecureText: false,
                       hint: 'Enter Name of Product',
                       controller: productNameController,
+                      prefixIcon: Icons.abc,
+                    ),
+                    CustomTextField(
+                      inputType: TextInputType.name,
+                      obsecureText: false,
+                      hint: 'Enter Serial Number',
+                      controller: serialNumberController,
                       prefixIcon: Icons.abc,
                     ),
                     CustomTextField(
@@ -120,7 +129,7 @@ class _AddProductScreenState extends State<AddProductScreen> {
                             .toString(),
                     totalAmount: productTotalAmountController.text,
                     soldParts: '0',
-                    serialNo: (Random().nextInt(9000) + 1000).toString(),
+                    serialNo: serialNumberController.text,
                     searchList: [], productWholesalePrice: wholesalePriceController.text, totalDiscount: '0');
                 uploadNewProductData(obj);
                 Fluttertoast.showToast(msg: "Product Added Successfully");
